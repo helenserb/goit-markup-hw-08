@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    color: var(--primary-text-color);
+    background-color: var(--main-bcg-color);
+    font-family: var(--main-font);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+button{
+    cursor: pointer;
+    font-family: inherit;
+}
+.logo{
+    @include font (26px, 700, 1.19);
+    display: block;
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    font-family: var(--logo-font);
+
+    &--accent{
+            color: var(--accent-color);
+    }
+
+    &--light-theme{
+        color: var(--black-text-color);
+    }
+
+    &--dark-theme{
+    margin-right: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    color: var(--white-text-color);
+    }
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}

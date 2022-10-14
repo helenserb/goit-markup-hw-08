@@ -7,7 +7,7 @@ body{
     letter-spacing: 0.03em;
 }
 .container{
-    max-width: 1200px;
+    max-width: 480px;
     padding: 0 15px;
     margin-right: auto;
     margin-left: auto;
@@ -18,8 +18,16 @@ body{
     // margin-left: auto;
 }
 .section{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    // padding-top: 94px;
+    // padding-bottom: 94px;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.capitalize{
+    text-transform: capitalize;
 }
 button{
     cursor: pointer;
@@ -47,10 +55,4 @@ button{
     padding: 0;
     color: var(--white-text-color);
     }
-}
-.uppercase{
-    text-transform: uppercase;
-}
-.capitalize{
-    text-transform: capitalize;
 }

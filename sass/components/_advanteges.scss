@@ -1,8 +1,12 @@
 .advanteges{
+
     // display: flex;
 }
+
 .advanteges>.item{
-    gap: 30px;
+    &:not(:last-child){
+        margin-bottom: 30px;
+    }
     // flex-basis: calc((100% - 90px) / 4);
     
     // &:not(:last-child){

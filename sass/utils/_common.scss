@@ -18,10 +18,18 @@ body{
     // margin-left: auto;
 }
 .section{
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
     // padding-top: 94px;
     // padding-bottom: 94px;
+}
+.section-title{
+    margin-bottom: 30px;
+    // margin-bottom: 50px;
+
+    @include font (28px, 700, 1.8);
+    // @include font (36px, 700, 1.17);
+
+    text-align: center;
 }
 .uppercase{
     text-transform: uppercase;
@@ -34,12 +42,16 @@ button{
     font-family: inherit;
 }
 .logo{
-    @include font (26px, 700, 1.19);
-    display: block;
-    margin-right: 93px;
-    padding-top: 24px;
-    padding-bottom: 25px;
+    @include font (24px, 700, 1.17);
     font-family: var(--logo-font);
+
+    display: block;
+    text-align: center;
+
+    // @include font (26px, 700, 1.19);
+    // margin-right: 93px;
+    // padding-top: 24px;
+    // padding-bottom: 25px;
 
     &--accent{
             color: var(--accent-color);

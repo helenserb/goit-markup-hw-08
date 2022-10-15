@@ -38,7 +38,7 @@
 
 .adress-list{
     margin-bottom: 60px;
-    
+
     @media (min-width: 1200px){
         margin-bottom: 0;
     }
@@ -119,8 +119,13 @@
 }
 
 .subscribe-field{
-    
+    @media screen and (max-width: 479px){
+        width: 100%;
+    }
     width: 450px;
+   
+    box-sizing: border-box;
+  resize: vertical;
     height: 50px;
     margin-top: 20px;
     padding-left: 16px;

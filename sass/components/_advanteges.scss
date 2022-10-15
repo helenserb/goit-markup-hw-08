@@ -1,14 +1,24 @@
 .advanteges{
-
-    // display: flex;
+    @media (min-width: 768px){
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    }
 }
 
 .advanteges>.item{
     &:not(:last-child){
         margin-bottom: 30px;
     }
-    // flex-basis: calc((100% - 90px) / 4);
     
+    @media (min-width: 768px){
+    max-width: calc((100% - 30px) / 2); 
+
+    &:nth-last-child(-n+2){
+        margin-bottom: 0;
+        }
+    }
+    // flex-basis: calc((100% - 90px) / 4);
     // &:not(:last-child){
     // margin-right: 30px;
     // }
@@ -19,8 +29,7 @@
 
     max-width: 450px;
     height: 120px;
-    // width: 270px;
-    // height: 120px;
+
     background-color: var(--additional-bcg-color);
 }
 .advanteges-title{

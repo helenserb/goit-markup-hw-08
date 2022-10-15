@@ -2,9 +2,13 @@
     background-color: var(--additional-bcg-color);
 }
 
-// .team-list{
-//     // display: flex;
-// }
+.team-list{
+    @media (min-width: 768px){
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    }
+}
 .team-list-item{
     max-width: 450px;
 
@@ -13,6 +17,12 @@
    
     &:not(:last-child){
         margin-bottom: 30px;
+    }
+    @media (min-width: 768px){
+    max-width: calc((100% - 30px) / 2);
+    &:nth-last-child(-n+2){
+        margin-bottom: 0;
+        } 
     }
     // // &:not(:last-child){
     // // margin-right: 30px;

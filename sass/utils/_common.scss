@@ -15,21 +15,29 @@ body{
  @media (min-width: 768px){
     max-width: 768px;
  }
+  @media (min-width: 1200px){
+    max-width: 1200px;
+ }
 }
 
 .section{
     padding: 60px 0;
-    // padding-top: 94px;
-    // padding-bottom: 94px;
+
+    @media (min-width: 1200px){
+    padding: 94px 0;
+    }
 }
 .section-title{
     margin-bottom: 30px;
-    // margin-bottom: 50px;
-
-    @include font (28px, 700, 1.8);
-    // @include font (36px, 700, 1.17);
-
+    
     text-align: center;
+    @include font (28px, 700, 1.8);
+
+    @media (min-width: 1200px){
+        margin-bottom: 50px;
+
+        @include font (36px, 700, 1.17);
+    }
 }
 .uppercase{
     text-transform: uppercase;
@@ -48,10 +56,13 @@ button{
     display: block;
     text-align: center;
 
-    // @include font (26px, 700, 1.19);
-    // margin-right: 93px;
-    // padding-top: 24px;
-    // padding-bottom: 25px;
+     @media (min-width: 1200px){
+        @include font (26px, 700, 1.19);
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+     }
+    
 
     &--accent{
             color: var(--accent-color);

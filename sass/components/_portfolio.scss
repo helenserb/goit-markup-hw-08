@@ -1,9 +1,18 @@
 .filter-list{
-    display: flex;
+     display: flex;
+     flex-wrap: wrap;
+
+    @media (min-width: 1200px) {
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 50px;  
+    } 
 }
 .filter-item{
+    @media (max-width: 480px) {
+    margin-bottom: 15px; 
+    }
+
+    
     &:not(:last-child){
     margin-right: 8px;
     }

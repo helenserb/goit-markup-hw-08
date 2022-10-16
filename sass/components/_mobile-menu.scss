@@ -5,8 +5,13 @@
     padding: 0;
     border: none;
     background-color: inherit;
+    
+    @media (min-width: 768px) {
+        display: none;
+    }
 }
 .menu-container{
+
     position: fixed;
     top: 0;
     left: 0;
@@ -18,7 +23,9 @@
 
     transform: translateX(100%);
     transition: 250ms ease-in-out;
-    
+    @media (min-width: 768px) {
+        display: none;
+    }
 }
 .menu-container.is-open{
     transform: translateX(0);

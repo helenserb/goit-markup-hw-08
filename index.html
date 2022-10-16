@@ -18,7 +18,7 @@
     <title>WebStudio - Головна</title>
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header__menu">
         <nav class="nav">
           <a href="./index.html" lang="en" class="logo logo--light-theme link"
@@ -54,8 +54,67 @@
             >
           </li>
         </ul>
+
+        <div class="menu-container js-menu-container" id="mobile-menu">
+          <button class="menu-toggle js-close-menu menu-close" type="button">
+            <svg width="40px" height="40px">
+            <use href="./images/icons.svg#icon-menu-close"></use>
+          </svg>
+          </button>
+
+          <nav class="mob-nav">
+          <ul class="mob-nav__list list">
+            <li class="mob-nav__item">
+              <a href="./index.html" class="mob-nav__link link nav__link--current">Студія</a>
+            </li>
+            <li class="mob-nav__item">
+              <a href="./portfolio.html" class="mob-nav__link link link">Портфоліо</a>
+            </li>
+            <li class="mob-nav__item">
+              <a href="" class="mob-nav__link link link">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+
+
+       <ul class="mob-contact__list list">
+          <li class="mob-contact__item">
+            <a href="mailto:info@devstudio.com" class="mob-contact__link mob-email link">
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="mob-contact__item">
+            <a href="tel:+380961111111" class="mob-contact__link mob-phone link">
+             
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+
+        <ul class="mob-social__list list">
+          <li class="mob-social__item">
+            <a href="" class="mob-social__link link no-padding">Instagram</a>
+          </li>
+          <li class="mob-social__item">
+            <a href="" class="mob-social__link link">Twitter</a>
+          </li>
+          <li class="mob-social__item">
+            <a href="" class="mob-social__link link">Facebook</a>
+          </li>
+          <li class="mob-social__item">
+            <a href="" class="mob-social__link link">LinkedIn</a>
+          </li>
+        </ul>
+        
+ 
+        </div>
+        <button type="button" class="menu-open menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <svg width="40px" height="40px">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+    </header>
 
     <main>
       <!-- Герой -->
@@ -644,7 +703,13 @@
         </button>  
         </div>  
       </div>   
-
+       <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>

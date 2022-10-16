@@ -10,7 +10,8 @@
     display: flex;
 
     &__list{
-        display: flex;
+        display: none;
+        // display: flex;
     }
     &__item:not(:last-child){
         margin-right: 50px;
@@ -48,7 +49,8 @@
 }
 
 .contact-list{
-    display: flex;
+    display: none;
+    // display: flex;
     align-items: center;
     margin-left: auto;
 

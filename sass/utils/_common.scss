@@ -50,18 +50,18 @@ button{
     font-family: inherit;
 }
 .logo{
-    @include font (24px, 700, 1.17);
+    @include font (24px, 400, 1.17);
     font-family: var(--logo-font);
-
     display: block;
     text-align: center;
+    padding: 16px 0;
 
-     @media (min-width: 1200px){
-        @include font (26px, 700, 1.19);
+    @media (min-width: 1200px){
+    @include font (26px, 700, 1.19);
     margin-right: 93px;
     padding-top: 24px;
     padding-bottom: 25px;
-     }
+    }
     
 
     &--accent{

@@ -49,6 +49,10 @@ button{
     cursor: pointer;
     font-family: inherit;
 }
+img{
+    display: block;
+    width: 100%;
+}
 .logo{
     @include font (24px, 400, 1.17);
     font-family: var(--logo-font);

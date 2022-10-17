@@ -19,10 +19,14 @@
     position: absolute;
     @extend %flex-center;
     flex-direction: column;
-
+    
+    @media screen and (max-width:374px) {
+     height: 568px;   
+    }
     @media screen and (max-width: 479px) {
         display: block;
-        width: 100%; 
+        width: 100%;
+
        }
 
     top: 50%;
@@ -106,6 +110,7 @@
        @media screen and (max-width: 479px) {
         display: block;
         width: 100%;
+    
        }
     
         width: 370px;
@@ -187,6 +192,7 @@
     font-size: 2.500vw;
     line-height: 1.71;
     color: var(--secondary-text-color);
+
     @media (min-width: 480px){
     font-size: 12px;
     }
@@ -221,9 +227,10 @@ color: var(--accent-color);
     display: block;
     margin-right: auto;
     margin-left: auto;
+    
  }
     @extend %flex-center;
-
+ 
     width: 200px;
     height: 50px;
     padding: 0;

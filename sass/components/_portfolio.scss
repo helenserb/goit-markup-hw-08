@@ -28,6 +28,9 @@
 }
 
 .filter{
+    @media (max-width: 479px) {
+        font-size: 3.333vw;
+    }
     padding: 6px 22px;
 
 
@@ -79,6 +82,9 @@
     position: relative;
     overflow: hidden;
 }
+.product-image{
+    width: 100%;
+}
 .portfolio-list-title{
     margin-bottom: 4px;
 
@@ -116,6 +122,9 @@
     }
 }
 .portfolio-overlay-text{
+    @media (max-width: 479px) {
+        font-size: 3.750vw;
+    }
 font-size: 18px;
 line-height: 1.56;
 color: var(--white-text-color);

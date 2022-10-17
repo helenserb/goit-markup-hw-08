@@ -1,6 +1,6 @@
 .responsibilities-section{
     display: none;
-      @media (min-width: 1200px){
+      @media screen and (min-width: 1200px){
         display: contents;
       }
 }

@@ -12,10 +12,10 @@ body{
     margin-right: auto;
     margin-left: auto;
 
- @media (min-width: 768px){
+ @media screen and (min-width: 768px){
     max-width: 768px;
  }
-  @media (min-width: 1200px){
+  @media screen and (min-width: 1200px){
     max-width: 1200px;
  }
 }
@@ -23,7 +23,7 @@ body{
 .section{
     padding: 60px 0;
 
-    @media (min-width: 1200px){
+    @media screen and (min-width: 1200px){
     padding: 94px 0;
     }
 }
@@ -33,7 +33,7 @@ body{
     text-align: center;
     @include font (28px, 700, 1.8);
 
-    @media (min-width: 1200px){
+    @media screen and (min-width: 1200px){
         margin-bottom: 50px;
 
         @include font (36px, 700, 1.17);
@@ -60,13 +60,13 @@ img{
     text-align: center;
     padding: 16px 0;
 
-    @media (min-width: 768px){
+    @media screen and (min-width: 768px){
     @include font (24px, 700, 1.17); 
     padding: 26px 0;
     margin-right: 87px;   
     }
 
-    @media (min-width: 1200px){
+    @media screen and (min-width: 1200px){
     @include font (26px, 700, 1.19);
     margin-right: 93px;
     }

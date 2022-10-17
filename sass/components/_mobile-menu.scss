@@ -6,7 +6,7 @@
     border: none;
     background-color: inherit;
     
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
         display: none;
     }
 }
@@ -23,7 +23,7 @@
 
     transform: translateX(100%);
     transition: 250ms ease-in-out;
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
         display: none;
     }
 }
@@ -41,7 +41,7 @@
     }
 }
 .mob-nav__link{
-        @media (max-width: 479px) {
+        @media screen and (max-width: 479px) {
         font-size: 8.333vw;  
         }
         display: block;
@@ -84,7 +84,7 @@
 }
 
 .mob-phone{
-    @media (max-width: 479px) {
+    @media screen and (max-width: 479px) {
         font-size: 7.083vw;  
         }
         font-size: 34px;
@@ -92,7 +92,7 @@
 }
 
 .mob-email{
-    @media (max-width: 479px) {
+    @media screen and (max-width: 479px) {
         font-size: 5vw;  
         }
     margin-bottom: 32px;
@@ -111,7 +111,7 @@
     }
 }
 .mob-social__link{
-    @media (max-width: 479px) {
+    @media screen and (max-width: 479px) {
         font-size: 3.750vw;  
         }
     display: block;

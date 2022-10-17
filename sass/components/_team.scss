@@ -3,12 +3,12 @@
 }
 
 .team-list{
-    @media (min-width: 768px){
+    @media screen and (min-width: 768px){
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-between;
     }
-    @media (min-width: 1200px){
+    @media screen and (min-width: 1200px){
     flex-wrap: nowrap;
     } 
 }
@@ -20,13 +20,13 @@
     &:not(:last-child){
         margin-bottom: 30px;
     }
-    @media (min-width: 768px){
+    @media screen and (min-width: 768px){
     max-width: calc((100% - 30px) / 2);
     &:nth-last-child(-n+2){
         margin-bottom: 0;
         } 
     }
-    @media (min-width: 1200px){
+    @media screen and (min-width: 1200px){
         max-width: calc((100% - 90px) / 4);
         
         &:nth-last-child(-n+4){

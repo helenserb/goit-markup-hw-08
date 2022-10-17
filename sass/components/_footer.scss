@@ -1,7 +1,7 @@
 .footer{
   
     background-color: var(--secondary-bcg-color);
-    @media (min-width: 1200px){
+    @media screen and (min-width: 1200px){
     padding: 60px 0;
     }
 }
@@ -10,27 +10,27 @@
     flex-direction: column;
     align-items: center;
     
-    @media (min-width: 1200px){
+    @media screen and (min-width: 1200px){
         flex-direction: row;
         align-items: baseline;
     }
 }
 .tablet-footer-wrap{
-    @media (min-width: 768px){
+    @media screen and (min-width: 768px){
        display: flex;
        flex-direction: row;
        flex-wrap: wrap;
     }
-     @media (min-width: 1200px){
+     @media screen and (min-width: 1200px){
         flex-wrap: nowrap;
         align-items: baseline;
      }
 }
 .adress-wrap{
-    @media (min-width: 768px){ 
+    @media screen and (min-width: 768px){ 
     margin-right: 165px;
     }
-    @media (min-width: 1200px){
+    @media screen and (min-width: 1200px){
         margin-right: 76px;
     }   
 
@@ -39,7 +39,7 @@
 .adress-list{
     margin-bottom: 60px;
 
-    @media (min-width: 1200px){
+    @media screen and (min-width: 1200px){
         margin-bottom: 0;
     }
 }
@@ -48,7 +48,7 @@
     &:not(:last-child){
     margin-bottom: 8px;
     }
-    @media (min-width: 1200px){
+    @media screen and (min-width: 1200px){
            &:not(:last-child){
     margin-bottom: 9px;
     } 
@@ -99,7 +99,7 @@
     align-items: center;
     justify-content: center;
 
-    @media (min-width: 1200px){
+    @media screen and (min-width: 1200px){
     align-items: flex-end;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -115,7 +115,7 @@
     text-transform: uppercase;
     color: var(--white-text-color);
 
-    @media(min-width: 1200px){
+    @media screen and (min-width: 1200px){
     text-align: start;
     }
 
@@ -147,7 +147,7 @@
 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    @media(min-width: 1200px){
+    @media screen and (min-width: 1200px){
     width: 358px;
     }
     &:hover,
@@ -183,7 +183,7 @@
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    @media (min-width: 1200px){
+    @media screen and (min-width: 1200px){
         margin-left: 12px;
     }
 
@@ -198,7 +198,7 @@
     height: 24px;
     margin-left: 12px;
 
-    @media (min-width: 1200px){
+    @media screen and (min-width: 1200px){
     margin-left: 10px;
     }
 }

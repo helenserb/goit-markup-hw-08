@@ -100,6 +100,9 @@
 
     @include font(18px, 700, 2);
     letter-spacing: 0.06em;
+    @media screen and (min-width:768px) and (max-width:1199px){
+    letter-spacing: 0.03em;
+    }
 }
 
 .portfolio-list-link{
